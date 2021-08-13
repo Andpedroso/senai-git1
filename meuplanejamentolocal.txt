@@ -1,5 +1,0 @@
-
-manualgit
-
-1. comandar o projeto e resolver conlitos.
-2. criar título da webpage.
