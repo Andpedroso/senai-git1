@@ -5,6 +5,83 @@
         <title>Página de teste</title>
     </head>
     <body>
-        <center><h1>GIT e GITHUB</h1></center>     
+        <center><h1>GIT e GITHUB</h1></center>
+        <hr>
+        <center><h3>Sistema de Controle de Versionamento Distribuído</h3></center>
+        <hr>
+        <center><h3>MANUAL DE COMANDOS GIT</h3></center>
+        <hr>
+        <center><h5>
+            <p># git init – cria o repositório no diretório selecionado.</p> 
+            <p># git status – mostra o estado em que estão os arquivos, caso rastreados ou não.</p>
+            <p># .gitignore – arquivo criado para adicionar arquivos para serem ignorados.</p>
+            <p># git config user.name “” – adiciona nome do desenvolvedor. Caso --global não é apenas local.</p>
+            <p># git config user.email “” – adiciona email do desenvolvedor.</p>
+            <p># git add nomedoarquivo. – adiciona o arquivo para o monitoramento. Tracked.</p>
+            <p># git commit -m “” – finaliza arquivos depois de adicionados para o monitoramento. Snapshot.</p>
+            <p># modified – arquivo no monitoramento que é modificado e salvo. git add para atualizar.</p>
+            <p># git log – mostra todo o histórico das ações no git. Mostra usuário e id.</p>
+            <p># git config core.pager cat – adiciona configuração no repositório para log.</p>
+            <p># git log -número – os últimos mostrados na numeração.</p>
+            <p># git log --oneline – informações de log em uma linha. Id e mensagem.</p>
+            <p># git log --before “XXXX-XX-XX” – mostra log anterior a data escolhida.</p>
+            <p># git log --after “XXXX-XX-XX” – mostra log após a data escolhida.</p>
+            <p># git log --since=“n days ago” – mostra log de dias atrás.</p>
+            <p># q – sai do log.</p>
+            <p># git checkout id – sete primeiros dígitos do commit. Vai para o commit do id.</p>
+            <p># git checkout master – volta para a cabeça.</p>
+            <p># git show – mostra informações do último commit.</p>
+            <p># git remote -v – apresenta o nome do repositório.</p>
+            <p># git push origin – manda para o repositório original.</p>
+            <p># git branch -a – mostra todas as branchs incluindo remotas.</p>
+            <p># git fetch – recolhe as branchs.</p>
+            <p># gti push origin nomedabranch – encaminha para o repostitório remoto a branch adicionada.</p>
+            <p># git push origin nomedoarquivo – encaminha o arquivo para o repositório.</p>
+            <p># git mv nomedoarquivo novonome – renomear arquivos.</p>
+            <p># git rm nomedoarquivo – remove arquivo do repositório. Pode ser commitado.</p>
+            <p># git diff --staged – compara arquivo em staged com a última versão do commit.</p>
+            <p># git diff id – compara o do id com o último commit.</p>
+            <p> # git diff id..id – compara todos os ids entre os colocados, dó último para o mais novo.</p>
+            <p># git commit --amend -m “” – corrigindo mensagem. Adiciona arquivo no último commit.</p>
+            <p># git restore --staged nomedoarquivo – retira arquivo do add, monitoramento.</p>
+            <p># git checkout nomedoarquivo – retorna para a versão anterior do arquivo modificado.</p>
+            <p># git reset HEAD --hard – sobrescreve todos os arquivos retirando últimas alterações.</p>
+            <p># git reset HEAD^ --hard – volta para o ultimo commit.</p>
+            <p> # git branch – exibe todos os branchs.</p>
+            <p># git branch nomedobranch – cria um novo branch.</p>
+            <p># git checkout nomedobranch – muda para o outro branch.</p>
+            <p># git branch -d nomedobranch – deleta o branch. D para confirmar.</p>
+            <p># git merge nomedobrach – une o branch com o principal.</p>
+            <p># git checkout -b novobranch – cria e muda para novo branch.</p>
+            <p># git rebase nomedobranch – une arquivos com o branch main.</p>
+            <p># git clone home – clona o endereço home de um repositório para diretório de colaborador.</p>
+            <p># git push – encaminha o diretório para o repositório original. Para Bare-repository.</p>
+            <p># git fetch – baixa os arquivos para o diretório trabalhado.</p>
+            <p># git rebase – o novo arquivo é adicionado.</p>
+            <p># git pull – encaminha os arquivos para o repositório remoto.</p>
+            <p># git init --bare – cria repositório vazio.</p>
+            <p># git clone endereçohome-bare . – clona repositório vazio.</p>
+            <p># git tag nomedatag (ex v1.0) – cria uma tag que pode ser o projeto final.</p>
+            <p># git tag – mostra as tags existentes no repositório.</p>
+            <p># git push origin nomedatag – no repostiório da tag encaminha a tag para repositório remoto.</p>
+            <p># git checkout nomedatag – muda para a tag escolhida.</p>
+            <p># git switch -c nomedabrachtag – vai para o branch da tag. Merge e push origin para nova tag.</p>
+            <p># git remote add origin endereçodorepositórioremoto – para adicionar repositório github.</p>
+            <p># git push -u origin nomedobranch – adiciona repositório local para remoto.</p>
+            <p># git config credential.helper store – adiciona nova credencial para o projeto para push.</p>
+            <p># git clone endereçodoprojetogithub – clona o projeto para o novo repositório.</p>
+            <p># git pull origin master – atualizar projeto a partir do branch principal.</p>
+            <p># git checkout -- . – volta os arquivos ao estado original.</p>
+            <p># gti checkout – nomedoarquivo – volta o arquivo a versão antes da modificação.l</p>
+            <p># git add . – adiciona todos os arquivos ao staged.</p>
+            <p># git checkout HEAD -- . – volta todos os arquivos ao estágio anterior.</p>
+            <p># git revert id – cria novo commit removendo o que foi modificado no arquivo.</p>
+            <p># git push -u origin master – adiciona arquivos para o branch principal.</p>
+            <p># git reset – remove o commit.</p>
+            <p># git reset HEAD~-numeração – numeração de quantos commits devem ser resetados.</p>
+            </h5></center>
+            <hr>
+            <center><a href="https://github.com/">Acesse o GITHUB para Sign Up</a></center>
+            <center><img src="https://enotas.com.br/blog/wp-content/uploads/2021/02/github.gif" alt="GITHUB"></center>
     </body>
 </html>
